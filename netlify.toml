@@ -1,6 +1,6 @@
 [build]
-  command = "yarn run build"
-  publish = ".next"
+  command = "npl run build"
+  publish = ".nextj"
 
   [build.environment]
     # cache Cypress binary in local "node_modules" folder
